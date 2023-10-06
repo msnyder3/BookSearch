@@ -2,6 +2,7 @@ const express = require('express');
 //Import the ApolloServer class
 const { ApolloServer } = require('@apollo/server');
 const { expressMiddleware } = require('@apollo/server/express4');
+const mongoose = require('mongoose');
 const path = require('path');
 
 //Import the two parts of a GraphQL schema
